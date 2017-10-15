@@ -8,19 +8,19 @@
 2. **游戏背景&世界观**<br>
   待补完
 
-3. **游戏实现&平台**<br>
+3. **游戏平台 & 实现**<br>
   PC<br>
   Unity / Cocox 2d (Depend on fund)
 
 4. **游戏系统 & 游戏规则 & 游戏特色**
-  1. 资源系统<br>
+    1. 资源系统<br>
   游戏中的资源分为两大类：决斗内资源(in-duel resource)与决斗外资源(out-duel resource)。其中决斗内资源仅包括卡牌资源，包括手牌资源，牌库资源等。决斗外资源分为两类，一类为卡牌制作材料(Materials)，一类为卡包获取资源(Gold or Diamond)。
-  2. RPG系统<br>
+    2. RPG系统<br>
   游戏中玩家所扮演的角色类似于[MTG中的旅法师](https://magic.wizards.com/en/story/planeswalkers),他们是一次牌局的主人公，在游戏过程中扮演着指挥者的角色，并利用自己的牌库(Deck)与其他玩家进行对决(Duel)；除此之外，玩家需要通过完成地图(Map)上的主线与支线任务(Mission)，通关挑战(Challenge)、参加竞技场(Arena)等方式来获取游戏中的资源，从而进行卡牌的合成，分解；牌组的构筑等。
-  3. CCG系统<br>
+    3. CCG系统<br>
   其中CCG系统借鉴于[巫师之昆特牌](https://www.playgwent.cn/index)，
   [无尽之战TCG](http://store.steampowered.com/app/257730/Infinity_Wars_Animated_Trading_Card_Game/)， [PokemonTCG](https://www.pokemon.com/us/pokemon-tcg/play-online/)。<br>
-    1. <a name="battlefield"></a>战场(Battlefield)<br>
+      1. <a name="battlefield"></a>战场(Battlefield)<br>
   战场是两名玩家进行决斗的场地，也是游戏中的主界面，其大致分为如下几个部分：<br>
         * 战斗区域(Battle Zone)，该区域负责承载所有进入战斗的永久物(Permanents)，该区域的生物(Creatures)可以发动自己的主动 / 被动异能(Ability)
         * 整备区域(Rested Zone), 该区域承载所有进入整备阶段的永久物， 该区域的生物不能发动异能；  
